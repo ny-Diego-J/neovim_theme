@@ -16,6 +16,9 @@
     </colors>
 
     <attributes>
+        <!-- =============================== -->
+        <!--        Default/Java             -->
+        <!-- =============================== -->
 
         <!-- KEYWORDS (public, private, return, class, this, ...) -->
         <option name="DEFAULT_KEYWORD">
@@ -199,6 +202,18 @@
                 <option name="FOREGROUND" value="7aa2f7"/>
             </value>
         </option>
+
+        <option name="MARKDOWM_COLON">
+            <value><option name="FOREGROUND" value="89ddff"/></value>
+        </option>
+
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
+        </option>
+
+
         <option name="DEFAULT_BRACKETS">
             <value>
                 <option name="FOREGROUND" value="7aa2f7"/>
@@ -335,7 +350,83 @@
                 <option name="FOREGROUND" value="c0caf5"/> <!-- Standardtext -->
             </value>
         </option>
+        <!-- =============================== -->
+        <!--        XML      SUPPORT         -->
+        <!-- =============================== -->
+        <option name="XML_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c8d3f5"/>
+            </value>
+        </option>
+        <!-- <tag> -->
+        <option name="XML_TAG">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
 
+        <!-- Tag-Name (idea-plugin, extensions, depends, etc.) -->
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Attribute name= -->
+        <option name="XML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="c099ff"/> <!-- gelb -->
+            </value>
+        </option>
+
+        <!-- = Zeichen -->
+        <option name="XML_ATTRIBUTE_VALUE_TOKEN">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/> <!-- cyan -->
+            </value>
+        </option>
+
+        <!-- "attribute value" -->
+        <option name="XML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="c3e88d"/> <!-- grün -->
+            </value>
+        </option>
+
+        <!-- /> oder > -->
+        <option name="XML_TAG_DATA">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Text zwischen Tags -->
+        <option name="XML_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- normaler Text -->
+            </value>
+        </option>
+
+        <!-- Comments -->
+        <option name="XML_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="565f89"/> <!-- grau -->
+            </value>
+        </option>
+
+        <!-- Entity refs: &quot; etc. -->
+        <option name="XML_ENTITY_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Processing instructions: <?xml ...?> -->
+        <option name="XML_PROLOG">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
 
     </attributes>
 </scheme>
