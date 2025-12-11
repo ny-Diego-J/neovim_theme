@@ -20,9 +20,36 @@
         <!-- KEYWORDS (public, private, return, class, this, ...) -->
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="7aa2f7"/>
+                <option name="FOREGROUND" value="fca7ea"/>
+                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
+        <option name="MARKED_BRACE_ATTRIBUTE">
+            <value>
+            <option name="FOREGROUND" value="ff966c"/>
+            </value>
+        </option>
+        <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+        <value>
+            <option name="BACKGROUND" value="3b4261"/>
+        </value>
+        </option>
+        <option name="SEARCH_RESULT_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
+        </option>
+        <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
+        </option>
+        <option name="">
+            <value>
+                <option name="FOREGROUND" value=""/>
+            </value>
+        </option>
+
 
         <!-- TYPES (String, int, Person, ...) -->
         <option name="DEFAULT_CLASS_NAME">
@@ -191,6 +218,124 @@
                 <option name="FOREGROUND" value="737aa2"/>
             </value>
         </option>
+        <!-- =============================== -->
+        <!--        MARKDOWN SUPPORT         -->
+        <!-- =============================== -->
+
+        <!-- Überschriften (#, ##, ### ...) -->
+        <option name="MARKDOWN_HEADER">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- Fett ( **text** ) -->
+        <option name="MARKDOWN_BOLD">
+            <value>
+                <option name="FOREGROUND" value="bb9af7"/> <!-- Lila -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Bold -->
+            </value>
+        </option>
+
+        <!-- Kursiv ( *text* ) -->
+        <option name="MARKDOWN_ITALIC">
+            <value>
+                <option name="FOREGROUND" value="73daca"/> <!-- Mint -->
+                <option name="FONT_TYPE" value="2"/>       <!-- Italic -->
+            </value>
+        </option>
+
+        <!-- Inline-Code (`code`) -->
+        <option name="MARKDOWN_INLINE_CODE">
+            <value>
+                <option name="FOREGROUND" value="ff9e64"/> <!-- Orange -->
+            </value>
+        </option>
+
+        <!-- Codeblock (``` ... ```) -->
+        <option name="MARKDOWN_CODE_BLOCK">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- Heller Text -->
+                <option name="BACKGROUND" value="1a1b26"/> <!-- Tokyo Night BG -->
+            </value>
+        </option>
+
+        <!-- Listenpunkte (-, *, +, 1.) -->
+        <option name="MARKDOWN_LIST_ITEM">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/> <!-- Helles Blau -->
+            </value>
+        </option>
+
+        <!-- Blockquote ( > ) -->
+        <option name="MARKDOWN_BLOCKQUOTE">
+            <value>
+                <option name="FOREGROUND" value="565f89"/> <!-- Kommentar-Grau -->
+            </value>
+        </option>
+
+        <option name="MARKDOWN_HRULE">
+            <value>
+                <option name="FOREGROUND" value="414868"/> <!-- Dunkelgrau -->
+            </value>
+        </option>
+
+        <!-- Tabellenkopf -->
+        <option name="MARKDOWN_TABLE_HEADER">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- Tabellenzellen -->
+        <option name="MARKDOWN_TABLE_CELL">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- Standardtext -->
+            </value>
+        </option>
+
+        <!-- Link-Text [label] -->
+        <option name="MARKDOWN_LINK_LABEL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- URL (https://...) -->
+        <option name="MARKDOWN_LINK_DESTINATION">
+            <value>
+                <option name="FOREGROUND" value="2ac3de"/> <!-- Türkis -->
+            </value>
+        </option>
+
+        <!-- Symbolklammern ( [] () ) -->
+        <option name="MARKDOWN_LINK_BORDER">
+            <value>
+                <option name="FOREGROUND" value="545c7e"/> <!-- Gedämpftes Grau -->
+            </value>
+        </option>
+
+        <!-- Bild ( ![Alt](url) ) -->
+        <option name="MARKDOWN_IMAGE">
+            <value>
+                <option name="FOREGROUND" value="bb9af7"/> <!-- Lila -->
+            </value>
+        </option>
+
+        <option name="MARKDOWN_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- normaler Editor-Text -->
+            </value>
+        </option>
+        <option name="DEFAULT_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- Standardtext -->
+            </value>
+        </option>
+
 
     </attributes>
 </scheme>
