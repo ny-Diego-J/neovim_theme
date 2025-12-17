@@ -1,11 +1,15 @@
 <idea-plugin>
     <id>com.github.nydiegoj.neovim_theme</id>
-    <name>Neovim_design</name>
+    <name>Neovim theme</name>
     <version>2.0.1</version>
     <vendor email="diego.jimenez@noseryoung.ch">digi.00</vendor>
 
+    <description>This is a Theme that is inspired by the Tokyo
+        night theme from neovim. It's mostly a work in progress
+        and if you encounter any bugs please report them so I can fix them asap.
+    </description>
+
     <depends>com.intellij.modules.platform</depends>
-    <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="tokyo-night" path="/json/theme.json"/>

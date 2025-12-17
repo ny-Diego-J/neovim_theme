@@ -29,13 +29,13 @@
         </option>
         <option name="MARKED_BRACE_ATTRIBUTE">
             <value>
-            <option name="FOREGROUND" value="ff966c"/>
+                <option name="FOREGROUND" value="ff966c"/>
             </value>
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-        <value>
-            <option name="BACKGROUND" value="3b4261"/>
-        </value>
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
@@ -204,7 +204,9 @@
         </option>
 
         <option name="MARKDOWM_COLON">
-            <value><option name="FOREGROUND" value="89ddff"/></value>
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
         </option>
 
         <option name="DEFAULT_OPERATION_SIGN">
@@ -347,7 +349,7 @@
         </option>
         <option name="DEFAULT_TEXT">
             <value>
-                <option name="FOREGROUND" value="c0caf5"/> <!-- Standardtext -->
+                <option name="FOREGROUND" value="a9b3d2"/> <!-- Standardtext -->
             </value>
         </option>
         <!-- =============================== -->
@@ -427,6 +429,24 @@
                 <option name="FOREGROUND" value="7aa2f7"/>
             </value>
         </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/>
+            </value>
+        </option>
+
+        <!--TODO: fix project view -->
+        <!--TODO: fix tabs-->
+        <!--TODO: Fix default text-->
+        <!--TODO: fix markdown perview-->
+        <!--TODO: fix black xml text-->
+        <!--TODO: add tab colors-->
+        <!--TODO: fix general bars on ui-->
+        <!--TODO: todo fix speical characet system-->
+        <!--TODO: fix top bar all functions the same color-->
+        <!--TODO: add setings menu support-->
+        <!--TODO: add default caracter support-->
+        <!--TODO: add terminal colors-->
 
     </attributes>
 </scheme>
