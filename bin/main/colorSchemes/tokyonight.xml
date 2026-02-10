@@ -1,0 +1,452 @@
+<scheme name="Tokyo Night"
+        version="142"
+        parent_scheme="Darcula"
+        default_for_theme="Tokyo Night">
+
+    <colors>
+        <option name="BACKGROUND" value="222436"/>
+        <option name="FOREGROUND" value="c0caf5"/>
+
+        <option name="CARET_COLOR" value="c0caf5"/>
+        <option name="CARET_ROW_COLOR" value="2f334d"/>
+
+        <option name="SELECTION_BACKGROUND" value="364a82"/>
+        <option name="LINE_NUMBERS_COLOR" value="545c7e"/>
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c0caf5"/>
+    </colors>
+
+    <attributes>
+        <!-- =============================== -->
+        <!--        Default/Java             -->
+        <!-- =============================== -->
+
+        <!-- KEYWORDS (public, private, return, class, this, ...) -->
+        <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="fca7ea"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="MARKED_BRACE_ATTRIBUTE">
+            <value>
+                <option name="FOREGROUND" value="ff966c"/>
+            </value>
+        </option>
+        <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
+        </option>
+        <option name="SEARCH_RESULT_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
+        </option>
+        <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="3b4261"/>
+            </value>
+        </option>
+        <option name="">
+            <value>
+                <option name="FOREGROUND" value=""/>
+            </value>
+        </option>
+
+
+        <!-- TYPES (String, int, Person, ...) -->
+        <option name="DEFAULT_CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="2ac3de"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BUILTIN_TYPE">
+            <value>
+                <option name="FOREGROUND" value="2ac3de"/>
+            </value>
+        </option>
+
+        <!-- STRINGS -->
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="c3e88d"/>
+            </value>
+        </option>
+
+        <!-- NUMBERS -->
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="ff9e64"/>
+            </value>
+        </option>
+
+        <!-- PARAMETERS (String name) -->
+        <option name="DEFAULT_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="ffc777"/>
+            </value>
+        </option>
+
+        <!-- LOCAL VARIABLES (var x) -->
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="65bcff"/>
+            </value>
+        </option>
+
+        <!-- INSTANCE FIELDS (this.name) -->
+        <option name="DEFAULT_INSTANCE_FIELD">
+            <value>
+                <option name="FOREGROUND" value="47b3a4"/>
+            </value>
+        </option>
+
+        <!-- STATIC FIELDS (System.out) -->
+        <option name="DEFAULT_STATIC_FIELD">
+            <value>
+                <option name="FOREGROUND" value="47b3a4"/>
+            </value>
+        </option>
+
+        <!-- FUNKTIONEN / METHODEN – Deklaration & Aufruf -->
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="DEFAULT_INSTANCE_METHOD">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="DEFAULT_STATIC_METHOD">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Java-spezifische Fallbacks für Methoden -->
+        <option name="METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="METHOD_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="STATIC_METHOD">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="CLASS_METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="JAVA_METHOD">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="JAVA_METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="JAVA_STATIC_METHOD">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- OPERATOREN (+ - = == etc.) -->
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
+        </option>
+
+        <!-- PUNCTUATION -->
+        <option name="DEFAULT_DOT">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="DEFAULT_COMMA">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
+        </option>
+        <option name="DEFAULT_SEMICOLON">
+            <value>
+                <option name="FOREGROUND" value="7ecaeb"/>
+            </value>
+        </option>
+
+        <!-- KLAMMERN -->
+        <option name="DEFAULT_PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <option name="MARKDOWM_COLON">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/>
+            </value>
+        </option>
+
+
+        <option name="DEFAULT_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- COMMENTS -->
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="565f89"/>
+            </value>
+        </option>
+
+        <!-- INLAYS -->
+        <option name="INLAY_TEXT">
+            <value>
+                <option name="FOREGROUND" value="737aa2"/>
+            </value>
+        </option>
+        <!-- =============================== -->
+        <!--        MARKDOWN SUPPORT         -->
+        <!-- =============================== -->
+
+        <!-- Überschriften (#, ##, ### ...) -->
+        <option name="MARKDOWN_HEADER">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- Fett ( **text** ) -->
+        <option name="MARKDOWN_BOLD">
+            <value>
+                <option name="FOREGROUND" value="bb9af7"/> <!-- Lila -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Bold -->
+            </value>
+        </option>
+
+        <!-- Kursiv ( *text* ) -->
+        <option name="MARKDOWN_ITALIC">
+            <value>
+                <option name="FOREGROUND" value="73daca"/> <!-- Mint -->
+                <option name="FONT_TYPE" value="2"/>       <!-- Italic -->
+            </value>
+        </option>
+
+        <!-- Inline-Code (`code`) -->
+        <option name="MARKDOWN_INLINE_CODE">
+            <value>
+                <option name="FOREGROUND" value="ff9e64"/> <!-- Orange -->
+            </value>
+        </option>
+
+        <!-- Codeblock (``` ... ```) -->
+        <option name="MARKDOWN_CODE_BLOCK">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- Heller Text -->
+                <option name="BACKGROUND" value="1a1b26"/> <!-- Tokyo Night BG -->
+            </value>
+        </option>
+
+        <!-- Listenpunkte (-, *, +, 1.) -->
+        <option name="MARKDOWN_LIST_ITEM">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/> <!-- Helles Blau -->
+            </value>
+        </option>
+
+        <!-- Blockquote ( > ) -->
+        <option name="MARKDOWN_BLOCKQUOTE">
+            <value>
+                <option name="FOREGROUND" value="565f89"/> <!-- Kommentar-Grau -->
+            </value>
+        </option>
+
+        <option name="MARKDOWN_HRULE">
+            <value>
+                <option name="FOREGROUND" value="414868"/> <!-- Dunkelgrau -->
+            </value>
+        </option>
+
+        <!-- Tabellenkopf -->
+        <option name="MARKDOWN_TABLE_HEADER">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- Tabellenzellen -->
+        <option name="MARKDOWN_TABLE_CELL">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- Standardtext -->
+            </value>
+        </option>
+
+        <!-- Link-Text [label] -->
+        <option name="MARKDOWN_LINK_LABEL">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/> <!-- Blau -->
+                <option name="FONT_TYPE" value="1"/>       <!-- Fett -->
+            </value>
+        </option>
+
+        <!-- URL (https://...) -->
+        <option name="MARKDOWN_LINK_DESTINATION">
+            <value>
+                <option name="FOREGROUND" value="2ac3de"/> <!-- Türkis -->
+            </value>
+        </option>
+
+        <!-- Symbolklammern ( [] () ) -->
+        <option name="MARKDOWN_LINK_BORDER">
+            <value>
+                <option name="FOREGROUND" value="545c7e"/> <!-- Gedämpftes Grau -->
+            </value>
+        </option>
+
+        <!-- Bild ( ![Alt](url) ) -->
+        <option name="MARKDOWN_IMAGE">
+            <value>
+                <option name="FOREGROUND" value="bb9af7"/> <!-- Lila -->
+            </value>
+        </option>
+
+        <option name="MARKDOWN_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- normaler Editor-Text -->
+            </value>
+        </option>
+        <option name="DEFAULT_TEXT">
+            <value>
+                <option name="FOREGROUND" value="a9b3d2"/> <!-- Standardtext -->
+            </value>
+        </option>
+        <!-- =============================== -->
+        <!--        XML      SUPPORT         -->
+        <!-- =============================== -->
+        <option name="XML_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c8d3f5"/>
+            </value>
+        </option>
+        <!-- <tag> -->
+        <option name="XML_TAG">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Tag-Name (idea-plugin, extensions, depends, etc.) -->
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Attribute name= -->
+        <option name="XML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="c099ff"/> <!-- gelb -->
+            </value>
+        </option>
+
+        <!-- = Zeichen -->
+        <option name="XML_ATTRIBUTE_VALUE_TOKEN">
+            <value>
+                <option name="FOREGROUND" value="89ddff"/> <!-- cyan -->
+            </value>
+        </option>
+
+        <!-- "attribute value" -->
+        <option name="XML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="c3e88d"/> <!-- grün -->
+            </value>
+        </option>
+
+        <!-- /> oder > -->
+        <option name="XML_TAG_DATA">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Text zwischen Tags -->
+        <option name="XML_TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/> <!-- normaler Text -->
+            </value>
+        </option>
+
+        <!-- Comments -->
+        <option name="XML_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="565f89"/> <!-- grau -->
+            </value>
+        </option>
+
+        <!-- Entity refs: &quot; etc. -->
+        <option name="XML_ENTITY_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+
+        <!-- Processing instructions: <?xml ...?> -->
+        <option name="XML_PROLOG">
+            <value>
+                <option name="FOREGROUND" value="7aa2f7"/>
+            </value>
+        </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="c0caf5"/>
+            </value>
+        </option>
+
+        <!--TODO: fix project view -->
+        <!--TODO: fix tabs-->
+        <!--TODO: Fix default text-->
+        <!--TODO: fix markdown perview-->
+        <!--TODO: fix black xml text-->
+        <!--TODO: add tab colors-->
+        <!--TODO: fix general bars on ui-->
+        <!--TODO: todo fix speical characet system-->
+        <!--TODO: fix top bar all functions the same color-->
+        <!--TODO: add setings menu support-->
+        <!--TODO: add default caracter support-->
+        <!--TODO: add terminal colors-->
+
+    </attributes>
+</scheme>

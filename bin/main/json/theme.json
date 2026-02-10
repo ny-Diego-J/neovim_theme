@@ -1,0 +1,144 @@
+{
+  "name": "Tokyo Night",
+  "dark": true,
+  "version": 3,
+
+  "colors": {
+    "editor.matchingBracket.background": "#ff966c22",
+    "editor.matchingBracket.border": "#ff966c"
+  },
+
+  "ui": {
+
+    "Panel.background": "#1a1b26",
+    "Component.background": "#1a1b26",
+    "Viewport.background": "#1a1b26",
+
+    "Label.foreground": "#c0caf5",
+    "Label.disabledForeground": "#565f89",
+    "Text.foreground": "#c0caf5",
+
+    "ToolWindow.background": "#1a1b26",
+    "ToolWindow.borderColor": "#292e42",
+
+    "TitlePane.background": "#16161e",
+    "TitlePane.foreground": "#c0caf5",
+    "TitlePane.inactiveBackground": "#1a1b26",
+    "TitlePane.inactiveForeground": "#565f89",
+
+    "Borders.color": "#292e42",
+    "Component.borderColor": "#292e42",
+    "Dialog.borderColor": "#292e42",
+    "TextField.borderColor": "#292e42",
+    "ComboBox.borderColor": "#292e42",
+
+    "Button.background": "transparent",
+    "Button.foreground": "#c0caf5",
+    "Button.hoverBackground": "#3b4261",
+    "Button.pressedBackground": "#4c5273",
+    "Button.focusedBorderColor": "#7aa2f7",
+
+    "TextField.background": "#1a1b26",
+    "TextField.foreground": "#c0caf5",
+    "TextField.selectionBackground": "#364a82",
+
+    "ComboBox.background": "#1a1b26",
+    "ComboBox.foreground": "#c0caf5",
+    "ComboBox.nonEditableBackground": "#1a1b26",
+
+    "Menu.background": "#1a1b26",
+    "Menu.foreground": "#c0caf5",
+    "Menu.separatorColor": "#292e42",
+
+    "MenuItem.background": "#1a1b26",
+    "MenuItem.foreground": "#c0caf5",
+    "MenuItem.disabledForeground": "#565f89",
+    "MenuItem.selectionBackground": "#3b4261",
+    "MenuItem.selectionForeground": "#ffffff",
+    "MenuItem.acceleratorForeground": "#565f89",
+    "MenuItem.acceleratorSelectionForeground": "#ffffff",
+    "MenuItem.acceleratorDisabledForeground": "#565f89",
+
+    "Popup.background": "#1a1b26",
+    "Popup.borderColor": "#292e42",
+    "Popup.separatorColor": "#292e42",
+
+    "PopupMenu.background": "#1a1b26",
+    "PopupMenu.borderColor": "#292e42",
+    "PopupMenu.selectionBackground": "#3b4261",
+    "PopupMenu.selectionForeground": "#ffffff",
+    "PopupMenu.separatorColor": "#292e42",
+
+    "Separator.foreground": "#292e42",
+    "Separator.background": "#1a1b26",
+
+    "Dialog.background": "#1a1b26",
+    "Dialog.foreground": "#c0caf5",
+
+    "Tooltip.background": "#16161e",
+    "Tooltip.foreground": "#c0caf5",
+
+    "ScrollBar.thumb": "#414868",
+    "ScrollBar.thumbBorderColor": "#292e42",
+    "ScrollBar.hoverThumb": "#565f89",
+    "ScrollBar.track": "#1a1b26",
+
+    "EditorTabs.background": "#16161e",
+    "EditorTabs.selectedBackground": "#1a1b26",
+    "EditorTabs.hoverBackground": "#1f2233",
+    "EditorTabs.borderColor": "#1a1b26",
+    "EditorTabs.selectedBorderColor": "#7aa2f7",
+    "EditorTabs.underlineColor": "#7aa2f7",
+
+    "List.background": "#1a1b26",
+    "List.foreground": "#c0caf5",
+    "List.selectionBackground": "#283457",
+    "List.selectionForeground": "#c0caf5",
+
+    "Table.background": "#1a1b26",
+
+    "CompletionPopup.background": "#1a1b26",
+    "CompletionPopup.foreground": "#c0caf5",
+    "CompletionPopup.selectionBackground": "#283457",
+
+    "StatusBar.background": "#16161e",
+    "StatusBar.foreground": "#c0caf5",
+
+    "Notifications.background": "#16161e",
+    "Notifications.foreground": "#c0caf5",
+
+    "Tree.background": "#1a1b26",
+    "Tree.textBackground": "#1a1b26",
+    "Tree.foreground": "#c0caf5",
+    "Tree.textForeground": "#c0caf5",
+    "Tree.selectionBackground": "#283457",
+    "Tree.selectionForeground": "#c0caf5",
+    "Tree.selectionInactiveBackground": "#292e42",
+    "Tree.hoverBackground": "#28345770",
+    "Tree.modifiedItemForeground": "#7aa2f7",
+    "Tree.folderForeground": "#e0af68",
+    "Tree.fileForeground": "#c0caf5",
+    "Tree.line": "#292e42",
+    "Tree.separatorColor": "#292e42",
+    "Tree.selectedInactiveForeground": "#c0caf5",
+
+    "ProjectView.background": "#1a1b26",
+    "ProjectView.foreground": "#c0caf5",
+    "ProjectView.selectedBackground": "#283457",
+    "ProjectView.selectedForeground": "#c0caf5",
+    "ProjectView.hoverBackground": "#28345770",
+    "ProjectView.hoverForeground": "#c0caf5",
+    "ProjectView.directoryForeground": "#e0af68",
+    "ProjectView.fileForeground": "#c0caf5",
+    "ProjectView.lineColor": "#292e42",
+    "ProjectView.separatorColor": "#292e42",
+    "ProjectView.inactiveSelectionBackground": "#292e42",
+    "ProjectView.inactiveSelectionForeground": "#c0caf5"
+  },
+
+  "icons": {
+    "ColorPalette": "Vibrant"
+  },
+
+  "editorScheme": "/colorSchemes/tokyonight.xml"
+}
